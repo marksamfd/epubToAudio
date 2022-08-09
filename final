@@ -1,0 +1,344 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "ncx": {
+        "_attributes": {
+            "xmlns": "http://www.daisy.org/z3986/2005/ncx/",
+            "version": "2005-1"
+        },
+        "head": {
+            "meta": [
+                {
+                    "_attributes": {
+                        "name": "dtb:uid",
+                        "content": "URN:ISBN:978-1-6126-8018-7"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "name": "dtb:depth",
+                        "content": "1"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "name": "dtb:totalPageCount",
+                        "content": "235"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "name": "dtb:maxPageNumber",
+                        "content": "235"
+                    }
+                }
+            ]
+        },
+        "docTitle": {
+            "text": {
+                "_text": "Rich Dad Poor Dad"
+            }
+        },
+        "docAuthor": {
+            "text": {
+                "_text": "Robert T. Kiyosaki"
+            }
+        },
+        "navMap": {
+            "navPoint": [
+                {
+                    "_attributes": {
+                        "id": "A1",
+                        "playOrder": "1"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Cover"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Cover.xhtml"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A2",
+                        "playOrder": "2"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Copyright"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Copyright.xhtml"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A3",
+                        "playOrder": "3"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Title Page"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Title.xhtml"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A4",
+                        "playOrder": "4"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Dedication"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Dedication.xhtml"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A5",
+                        "playOrder": "5"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Acknowledgments"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Acknowledgments.xhtml"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A6",
+                        "playOrder": "6"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Contents"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Contents.xhtml"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A7",
+                        "playOrder": "7"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Introduction: Rich Dad Poor Dad"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Introduction.xhtml#kfm3"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A8",
+                        "playOrder": "8"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Chapter One: Lesson 1: The Rich Don’t Work for Money"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Chapter001.xhtml#kch1"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A9",
+                        "playOrder": "9"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Chapter Two: Lesson 2: Why Teach Financial Literacy?"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Chapter002.xhtml#kch2"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A10",
+                        "playOrder": "10"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Chapter Three: Lesson 3: Mind Your Own Business"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Chapter003.xhtml#kch3"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A11",
+                        "playOrder": "11"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Chapter Four: Lesson 4: The History of Taxes and the Power of Corporations"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Chapter004.xhtml#kch4"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A12",
+                        "playOrder": "12"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Chapter Five: Lesson 5: The Rich Invent Money"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Chapter005.xhtml#kch5"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A13",
+                        "playOrder": "13"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Chapter Six: Lesson 6: Work to Learn—Don’t Work for Money"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Chapter006.xhtml#kch6"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A14",
+                        "playOrder": "14"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Chapter Seven: Overcoming Obstacles"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Chapter007.xhtml#kch7"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A15",
+                        "playOrder": "15"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Chapter Eight: Getting Started"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Chapter008.xhtml#kch8"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A16",
+                        "playOrder": "16"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Chapter Nine: Still Want More? Here Are Some To Do’s"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Chapter009.xhtml#kch9"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A17",
+                        "playOrder": "17"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "Final Thoughts"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/Final_Thoughts.xhtml#kbm1"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "A18",
+                        "playOrder": "18"
+                    },
+                    "navLabel": {
+                        "text": {
+                            "_text": "About the Author"
+                        }
+                    },
+                    "content": {
+                        "_attributes": {
+                            "src": "text/About_The_Author.xhtml"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
