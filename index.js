@@ -33,8 +33,8 @@ epub.on('end', function () {
         console.log("success1")
         allParagraphs.forEach(async (el, id) => {
             let str = el.textContent
-            str = str.replace("“", '\\"')
-            str = str.replace("”", '\\"')
+            str = str.replaceAll(/([“”])+/g, '"')
+            // str = str.replace("”", '"')
             tts(str, currentChapter, id)
             console.log(`${id}: ${str}`)
         })
