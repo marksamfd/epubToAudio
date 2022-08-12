@@ -31,14 +31,14 @@ epub.on('end', function () {
         const allParagraphs = Array.from(document.querySelectorAll("p"))
         var p = []
         console.log("success1")
+        allParagraphs.forEach(async (el, id) => {
+            let str = el.textContent
+            str = str.replace("“", '\\"')
+            str = str.replace("”", '\\"')
+            tts(str, currentChapter, id)
+            console.log(`${id}: ${str}`)
+        })
 
-        allParagraphs.slice(0, 10).forEach(async (el, id) => {
-            tts(el.textContent, currentChapter, id)
-        })
-        console.log("pushed success")
-        Promise.all(p).then(() => {
-            console.log("success")
-        })
     })
 })
 epub.on('error', function (err) {
