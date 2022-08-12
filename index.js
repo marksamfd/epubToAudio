@@ -6,8 +6,16 @@ const { JSDOM } = require("jsdom");
 const { xml2json } = require("./xml2json")
 const tts = require("./cmd1");
 const downloadFromTTS = require("./utils/downloadFromTTS");
-let epub = new EPub(`./rich.epub`, "/imagewebroot/", "/articlewebroot/");
 let currentChapter = 10
+const yargs = require("yargs");
+
+const options = yargs
+    .usage("Usage: -b <name>")
+    .option("b", { alias: "book", describe: "epub Filename", type: "string", demandOption: true })
+    .argv;
+let epub = new EPub(`./${options.book}`, "/imagewebroot/", "/articlewebroot/");
+
+
 epub.on('end', function () {
     console.log(epub.metadata.title)
     epub.getChapterRaw(epub.spine.contents[currentChapter].id, function (err, data) {
@@ -25,7 +33,7 @@ epub.on('end', function () {
         console.log("success1")
 
         allParagraphs.slice(0, 10).forEach(async (el, id) => {
-            p.push(downloadFromTTS.bind(el.textContent, currentChapter, id))
+            tts(el.textContent, currentChapter, id)
         })
         console.log("pushed success")
         Promise.all(p).then(() => {
